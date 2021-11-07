@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Gonzalo Villamandos</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Gonzalo Villamandos" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		
+		<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky transparent clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/images/logo_dark.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="#slider">
+											INICIO
+										</a>
+									</li>
+									<li><!-- FEATURES -->
+										<a href="#skills">
+											SKILLS
+										</a>
+									</li>
+									<li><!-- PRICING -->
+										<a href="#educacion">
+											EDUCACION
+										</a>
+									</li>
+									<li><!-- TESTIMONIALS -->
+										<a href="#experiencia">
+											EXPERIENCIA
+										</a>
+									</li>
+									<li><!-- PURCHASE -->
+										<a href="#footer">
+											CONTACTO
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- HOME -->
+			<section id="slider" class="fullheight" style="background:url('assets/images/38-min.jpg')">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="display-table">
+					<div class="display-table-cell vertical-align-middle">
+						
+						<div class="container text-center">
+							
+							<h1 class="nomargin size-40 weight-300 wow fadeInUp" data-wow-delay="0.4s">Gonzalo Villamandos</h1>
+							
+							<div class="margin-top-20 wow fadeInUp">
+								<img style="height: 190px;" class="img-responsive img-circle" src="assets/images/gv.jpg" alt="">
+							</div>
+
+							<p class="lead margin-top-20 font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Full Stack Web Developer</p>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /HOME -->
+
+
+			<!-- -->
+			<section id="skills">
+				<div class="container">
+					
+					<div class="row">
+					
+						<div class="col-lg-6">
+
+							<div class="heading-title heading-border-bottom">
+								<h3>Servicios</h3>
+							</div>
+
+							<div class="toggle toggle-transparent-body toggle-accordion">
+
+								<div class="toggle active">
+									<label>Diseño Web Responsive</label>
+									<div class="toggle-content">
+										<p>Contenido adaptable a cualquier tamaño de pantalla y dispositivo </p>
+									</div>
+								</div>
+
+								<div class="toggle">
+									<label>Sitios Institucionales</label>
+									<div class="toggle-content">
+										<p>Un lugar en internet para tu institución. Lográ que la información llegue a más gente.</p>
+									</div>
+								</div>
+
+								<div class="toggle">
+									<label>E-Commerce</label>
+									<div class="toggle-content">
+										<p>Publicá y vende tus productos o servicios en linea.</p>
+									</div>
+								</div>
+
+								<div class="toggle">
+									<label>Portafolios</label>
+									<div class="toggle-content">
+										<p>Mostrá tu diseños y trabajos artísticos al mundo de la mejor manera.</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col-lg-6">
+
+							<div class="heading-title heading-border-bottom">
+								<h3>Skills</h3>
+							</div>
+
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-success progress-bar-striped active text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 98%; min-width: 2em;">
+									<span>HTML5 98%</span>
+								</div>
+							</div><!-- /progress bar -->
+
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-dark progress-bar-striped active text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;">
+									<span>CSS3 90%</span>
+								</div>
+							</div><!-- /progress bar -->
+
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-warning progress-bar-striped active text-left" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; min-width: 2em;">
+									<span>JAVASCRIPT 80%</span>
+								</div>
+							</div><!-- /progress bar -->
+
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-muted python progress-bar-striped active text-left" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%; min-width: 2em;">
+									<span>PYTHON/DJANGO 85%</span>
+								</div>
+							</div><!-- /progress bar -->
+
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-info progress-bar-striped active text-left" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;">
+									<span>PHP/MYSQL 88%</span>
+								</div>
+							</div><!-- /progress bar -->
+							
+							<div class="progress progress-lg"><!-- progress bar -->
+								<div class="progress-bar progress-bar-danger progress-bar-striped active text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;">
+									<span>WORDPRESS 90%</span>
+								</div>
+							</div><!-- /progress bar -->
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+					
+
+		<!-- EDUCACION -->
+		<section id="educacion">
+<!-- 
+	controlls-over		= navigation buttons over the image 
+	buttons-autohide 	= navigation buttons visible on mouse hover only
+	
+	data-plugin-options:
+		"singleItem": true
+		"autoPlay": true (or ms. eg: 4000)
+		"navigation": true
+		"pagination": true
+		"items": "4"
+
+	owl-carousel item paddings
+		.owl-padding-0
+		.owl-padding-3
+		.owl-padding-6
+		.owl-padding-10
+		.owl-padding-15
+		.owl-padding-20
+-->
+<h3 class="text-center">EDUCACION</h3>
+<div class="owl-carousel owl-padding-10 buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}'>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="assets/images/certifs/big/DesarrolloWebInfo.jpg">
+			<img class="img-responsive" src="assets/images/certifs/DesarrolloWebInfo.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="assets/images/certifs/big/DesarrolloWebInfo.jpg">Curso de Desarrollo Web - INFORMATORIO</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c7096d8b-e083-4be5-b030-598420b101a2/">
+			<img class="img-responsive" src="assets/images/certifs/SQL.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c7096d8b-e083-4be5-b030-598420b101a2/">SQL- The Complete Introduction to SQL programming</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-a7465604-6037-42da-a3a1-e2a7ef473410/">
+			<img class="img-responsive" src="assets/images/certifs/SQLServer.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-a7465604-6037-42da-a3a1-e2a7ef473410/">Introducción a la Gestión de Bases Datos usando SQL Server</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-9a17a16f-7854-49fa-8bd8-78302bf76a66/">
+			<img class="img-responsive" src="assets/images/certifs/HTML1.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-9a17a16f-7854-49fa-8bd8-78302bf76a66/">HTML: Desde cero (Aprende y domina HTML5) + Infografias</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-8c6f8e9c-2eb8-4e17-a5c8-4141240399a5/">
+			<img class="img-responsive" src="assets/images/certifs/HMTLCSSJQUERYPD.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-8c6f8e9c-2eb8-4e17-a5c8-4141240399a5/">Desarrollo web : HTML,CSS,Javascript,JQuery,Python y Django</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-7229feb3-9d8c-4abf-bf64-ae2b517ec224/">
+			<img class="img-responsive" src="assets/images/certifs/React.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-7229feb3-9d8c-4abf-bf64-ae2b517ec224/">React JS- Complete Guide for Frontend Web Development [2021]</a></h4>
+		
+	</div>
+	
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c27f39aa-0e87-49bf-b322-939276a634d2/">
+			<img class="img-responsive" src="assets/images/certifs/PHP.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c27f39aa-0e87-49bf-b322-939276a634d2/">PHP & MySQL - Certification Course for Beginners</a></h4>
+		
+	</div>
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-9a1a2298-b820-478d-a326-20d89500d3ff/">
+			<img class="img-responsive" src="assets/images/certifs/ModernPHP.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-9a1a2298-b820-478d-a326-20d89500d3ff/">Modern PHP Web Development w/ MySQL, GitHub & Heroku</a></h4>
+		
+	</div>
+	
+	<div class="img-hover">
+		<a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c1fcf928-4006-4233-941d-59803091fe61/">
+			<img class="img-responsive" src="assets/images/certifs/wordpress.jpg" alt="">
+		</a>
+
+		<h4 class="text-left margin-top-20"><a rel="noopener noreferrer" target="_blank" href="https://www.udemy.com/certificate/UC-c1fcf928-4006-4233-941d-59803091fe61/">Mega Curso de Wordpress de Cero a Maestro</a></h4>
+		
+	</div>
+</div>
+</section>
+
+		<!--EXPERIENCIA-->
+		<section id="experiencia">
+			<div class="container">
+				<h3 class="text-center">EXPERIENCIA</h3>
+				<div class="row">
+				
+					<div class="col-md-4">
+						
+						<div class="heading-title heading-border-bottom heading-color">
+							<h3>ORBE INNOVACION</h3>
+						</div>
+						
+						<ul class="list-unstyled list-icons">
+							<li><i class="fa fa-check"></i> Full Stack Web Development</li>
+							<li><i class="fa fa-check"></i> WordPress</li>
+							<li><i class="fa fa-check"></i> Ecommerce</li>
+							<li><i class="fa fa-check"></i> Mobile Apps</li>
+						</ul>
+						
+						<p class="text-success">Octubre 2021 - Actualidad</p>
+
+					</div>
+
+					<div class="col-md-4">
+						<div class="heading-title heading-border-bottom heading-color">
+							<h3>ALLUS GLOBAL BPO</h3>
+						</div>
+						<ul class="list-unstyled list-icons">
+							<li><i class="fa fa-check"></i> Atención al Cliente</li>
+							<li><i class="fa fa-check"></i> Soporte Técnio de Telefonia e Internet para TELEFONICA</li>
+							<li><i class="fa fa-check"></i> Venta de Servicios</li>
+						</ul>
+						
+						<p class="text-success">Julio 2015 - Diciembre 2016</p>
+
+					</div>
+
+					<div class="col-md-4">
+						<div class="heading-title heading-border-bottom heading-color">
+							<h3>PhysicalFitnet</h3>
+						</div>
+						<ul class="list-unstyled list-icons">
+							<li><i class="fa fa-check"></i> Edición de Video</li>
+							<li><i class="fa fa-check"></i> Asistente de Marketing</li>
+							<li><i class="fa fa-check"></i> Tareas Administrativas</li>
+						</ul>
+						
+						<p class="text-success">Noviembre 2008 - Noviembre 2009</p>
+
+					</div>
+
+				</div>
+				
+			</div>
+		</section>
+		<!-- / -->
+
+
+
+				<!--TRABAJOS-->
+				<section id="trabajos">
+					<div class="container text-center">
+						<h3>TRABAJOS WEB</h3>
+						<div class="row">
+						
+							<div class="col-md-4">
+								
+								<div class="card" >
+									<img style="width: 350px;" src="assets/images/portfolio/ecommerce.jpg" class="img-responsive card-img-top" alt="...">
+									<div class="card-body margin-top-10">
+									  <h4 class="card-title">Ecommerce</h4>
+									</div>
+								  </div>
+		
+							</div>
+		
+							<div class="col-md-4">
+								<div class="card" >
+									<img style="width: 350px;" src="assets/images/portfolio/institucional.jpg" class="img-responsive card-img-top" alt="...">
+									<div class="card-body margin-top-10">
+									  <h4 class="card-title">Institucional</h4>
+									</div>
+								  </div>
+		
+							</div>
+		
+							<div class="col-md-4">
+								<div class="card" >
+									<img style="width: 350px;" src="assets/images/portfolio/portfolio.jpg" class="img-responsive card-img-top" alt="...">
+									<div class="card-body margin-top-10">
+									  <h4 class="card-title">Portafolios</h4>
+									</div>
+								  </div>
+		
+							</div>
+		
+						</div>
+						
+					</div>
+				</section>
+				<!-- / -->
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container text-center">
+
+						
+						<div class="col-12">
+							
+
+							<!-- Contact Address -->
+							<address>
+								<p >
+									<a class="footer-sprite email" href="mailto:gonzalo.villamandos@gmail.com">gonzalo.villamandos@gmail.com</a>
+								</p>
+							</address>
+							<!-- Social Icons -->
+							<div class="margin-top-20 padding-bottom-20 col-12 text-center">
+								<a rel="noopener noreferrer" target="_blank"  href="https://www.facebook.com/gonzalo.villamandos/" class="social-icon social-icon-border social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+
+								<a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/gonzalo-villamandos/" class="social-icon social-icon-border social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+
+								<a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/gonzalov85/" class="social-icon social-icon-border social-instagram" data-toggle="tooltip" data-placement="top" title="Instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+					
+							</div>
+							<!-- /Social Icons -->
+
+							<!-- /Contact Address -->
+
+
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+	</body>
+</html>
